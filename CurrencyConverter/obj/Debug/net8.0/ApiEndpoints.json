@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "CurrencyApi.Controllers.CurrencyController",
+    "Method": "ConvertToUah",
+    "RelativePath": "api/Currency/toUah",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usd",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CurrencyApi.Controllers.CurrencyController",
+    "Method": "ConvertToUsd",
+    "RelativePath": "api/Currency/toUsd",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uah",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
